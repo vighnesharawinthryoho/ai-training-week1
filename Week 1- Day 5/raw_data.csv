@@ -1,0 +1,8 @@
+﻿employee_id,name,department,email,salary,join_date
+101,"  arun kumar "," sales "," ARUN@EXAMPLE.COM ","₹65,000","2024-01-15"
+102," meera nair","Engineering","Meera@Example.com","72000","2024-03-10"
+102," meera nair","Engineering","Meera@Example.com","72000","2024-03-10"
+103,"KARTHIK RAO"," sales ","karthik@example.com","₹58,000","invalid_date"
+104,"divya sharma","","DIVYA@EXAMPLE.COM","","2024-06-01"
+,"rohan das","HR","rohan@example.com","₹81,000","2024-07-20"
+105,"sanjay verma","engineering","sanjay@example.com","₹250,000","2024-08-05"
