@@ -1,0 +1,6 @@
+employee_id,name,department,email,salary,join_date,join_date_missing,is_salary_outlier
+101,Arun Kumar,Sales,arun@example.com,65000.0,2024-01-15 00:00:00,False,False
+102,Meera Nair,Engineering,meera@example.com,72000.0,2024-03-10 00:00:00,False,False
+103,Karthik Rao,Sales,karthik@example.com,58000.0,2024-04-20 12:00:00,True,False
+104,Divya Sharma,Engineering,divya@example.com,68500.0,2024-06-01 00:00:00,False,False
+105,Sanjay Verma,Engineering,sanjay@example.com,250000.0,2024-08-05 00:00:00,False,True

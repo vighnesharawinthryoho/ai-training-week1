@@ -2,7 +2,7 @@
 
 ## One-Page Summary of Findings
 
-- **Problem:** Examine how employee salaries (INR) are distributed across team members, compare individual pay against the team average (68,800 INR), and check whether compensation follows employee ID order.
+- **Problem:** Examine how employee salaries (`INR`) are distributed across team members, compare individual pay against the team average (`68,800 INR`), and check whether compensation follows employee ID order.
 - **Data:** `data/employees.csv` containing 5 employee records (`id`, `name`, `city`, `salary`), with city labels normalised during analysis and visualised across five `matplotlib` chart types (`bar`, `histogram`, `scatter`, `sorted line`, and `box plot`).
 - **3 Key Insights:**
   1. **Pay spread around the mean:** Salaries vary noticeably around the `68,800 INR` average, separating higher-earning records above the mean line from lower-earning records below it.
@@ -25,11 +25,5 @@
 ## How to Run
 
 1. Open PowerShell and navigate to the Day 5 project directory:
-   `Set-Location "C:\Users\ricky\Documents\ai-training-week1\Week 1- Day 5\task1_visualisations"`
-2. Install required dependencies:
-   `python -m pip install -r requirements.txt`
-3. Open `notebooks/visualisations.ipynb` in VS Code or Jupyter and run all cells to generate the charts in `reports/figures/`.
-4. Export the notebook report to HTML:
-   `python -m nbconvert --to html "notebooks/visualisations.ipynb" --output-dir "reports"`
-5. *(Bonus)* Launch the Streamlit app:
-   `python -m streamlit run app.py`
+   ```powershell
+   Set-Location "C:\Users\ricky\Documents\ai-training-week1\Week 1- Day 5\task1_visualisations"
